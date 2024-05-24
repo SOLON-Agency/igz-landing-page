@@ -19,8 +19,8 @@
 
  :root {
      --font-1    : "Lora", serif;
-     --font-2    : "Gothic A1", sans-serif;
-     --font-3    : "Marcellus", serif;
+     --font-1    : "Gothic A1", sans-serif;
+     --font-1    : "Marcellus", serif;
  
      /* monospace
      */
@@ -37,7 +37,7 @@
       * color-3(#FFE4AF)
       */
      --color-1                      : hsla(76, 6%, 35%, 1);
-     --color-2                      : hsla(344, 44%, 25%, 1);
+     --color-2                      : #03170C;
      --color-3                      : hsla(40, 100%, 75%, 1);
  
      /* theme color variations
@@ -45,11 +45,11 @@
      --color-1-lighter              : hsla(76, 6%, 55%, 1);
      --color-1-light                : hsla(76, 6%, 45%, 1);
      --color-1-dark                 : hsla(76, 6%, 25%, 1);
-     --color-1-darker               : hsla(76, 6%, 15%, 1);
+     --color-1-darker               : #082330;
      --color-2-lighter              : hsla(344, 44%, 45%, 1);
      --color-2-light                : hsla(344, 44%, 35%, 1);
      --color-2-dark                 : hsla(344, 44%, 15%, 1);
-     --color-2-darker               : hsla(344, 44%, 5%, 1);
+     --color-2-darker               : #082330;
      --color-3-lighter              : hsla(40, 100%, 97%, 1);
      --color-3-light                : hsla(40, 100%, 85%, 1);
      --color-3-dark                 : hsla(40, 100%, 65%, 1);
@@ -98,7 +98,7 @@
      /* text
       */
      --color-text-dark              : var(--color-black);
-     --color-text                   : var(--color-gray-10);
+     --color-text                   : #082330;
      --color-text-light             : var(--color-gray-7);
      --color-placeholder            : var(--color-gray-6);
  
@@ -329,6 +329,10 @@ sup {
 
 img {
     border-style : none;
+}
+
+.g-maps {
+    margin-top: 3rem;
 }
 
 button,
@@ -1416,7 +1420,7 @@ a:active {
  */
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family            : var(--font-2);
+    font-family            : var(--font-1);
     font-weight            : 500;
     color                  : white;
     font-variant-ligatures : common-ligatures;
@@ -1550,7 +1554,7 @@ header .row {
 }
 
 header h1 {
-    font-family    : var(--font-3);
+    font-family    : var(--font-1);
     font-size      : var(--text-xxl);
     line-height    : var(--vspace-1_5);
     text-transform : uppercase;

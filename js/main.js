@@ -11,12 +11,8 @@
     html.className = html.className.replace(/\bno-js\b/g, '') + 'js';
 
     const cfg = {
-
-        // Countdown Timer Final Date
-        finalDate : 'June 04, 2024 00:00:00',
-        // MailChimp URL
-        mailChimpURL : 'https://facebook.us1.list-manage.com/subscribe/post?u=1abf75f6981256963a47d197a&amp;id=37c6d8f4d6' 
-
+        finalDate : 'June 02, 2024 00:00:00',
+        mailChimpURL : ""
     };
 
 
@@ -94,9 +90,9 @@
 
             if (days <= 99) {
                 if (days <= 9) {
-                    days = '00' + days;
+                    days = '' + days;
                 } else { 
-                    days = '0' + days;
+                    days = '' + days;
                 }
             }
 
